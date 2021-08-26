@@ -1,8 +1,15 @@
 clone este repositorio
 
-no vscode rode crie um ambiente virtual
+no vscode crie um ambiente virtual
 
-faça:
+    -Se não possuir o virtual lenv:
+ 
+        python -m pip install --upgrade pip setuptools virtualenv
+     
+    python -m virtualenv kivy_venv
+ 
+    kivy_venv\Scripts\activate
+
 
     pip install -r requiriments.txt
   
